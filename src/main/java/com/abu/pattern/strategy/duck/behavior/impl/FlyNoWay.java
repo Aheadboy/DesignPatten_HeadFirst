@@ -1,0 +1,11 @@
+package com.abu.pattern.strategy.duck.behavior.impl;
+
+import com.abu.pattern.strategy.duck.behavior.FlyBehavior;
+
+public class FlyNoWay implements FlyBehavior {
+
+	public void fly() {
+		System.out.println("I can't fly");
+	}
+
+}
