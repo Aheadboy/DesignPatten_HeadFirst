@@ -7,6 +7,11 @@ import com.abu.pattern.factory.abstractf.ingredient.NYPizzaIngredientFactory;
 import com.abu.pattern.factory.abstractf.pizza.CheesePizza;
 import com.abu.pattern.factory.abstractf.pizza.ClamPizza;
 
+
+/**
+ * 作为工厂方法类的子类。
+ * 该类封装了，决定实例化何种产品的逻辑。
+ */
 public class NYPizzaStore extends AbsPizzaStore{
 
 	@Override

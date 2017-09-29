@@ -6,25 +6,30 @@ import com.abu.pattern.factory.abstractf.material.Dough;
 import com.abu.pattern.factory.abstractf.material.Sauce;
 
 public abstract class AbsPizza {
-	protected String name;
-	
-	protected Dough dough;
-	protected Sauce sauce;
-	protected Cheese cheese;
-	protected Clam clam;
-	
-	protected abstract void prepare();
-	
-	protected void bake(){}
-	protected void cut(){}
-	protected void box(){}
+    protected String name;
 
-	public String getName() {
-		return name;
-	}
+    protected Dough dough;
+    protected Sauce sauce;
+    protected Cheese cheese;
+    protected Clam clam;
 
-	public void setName(String name) {
-		this.name = name;
-	}
-	
+    protected abstract void prepare();
+
+    protected void bake() {
+    }
+
+    protected void cut() {
+    }
+
+    protected void box() {
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
 }

@@ -14,6 +14,12 @@ public abstract class PizzaStore {
 		pizza.box();
 		return pizza;
 	}
-	
+
+
+	/**
+	 * 不同的处理逻辑，不同的产品
+	 * @param type
+	 * @return
+	 */
 	abstract Pizza createPizza(String type);
 }
