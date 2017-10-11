@@ -3,9 +3,9 @@ package com.abu.pattern.composite.menus;
 public class MenuItem {
 	private String name;
 	private String description;
-	private Boolean vegetarian;
+	private Boolean vegetarian;//素食
 	private Double price;
-	
+
 	public MenuItem(String name, String description
 								,Boolean vegetarian, Double price){
 		this.name = name;
@@ -13,7 +13,7 @@ public class MenuItem {
 		this.vegetarian = vegetarian;
 		this.price = price;
 	}
-	
+
 	public String getName() {
 		return name;
 	}
@@ -38,6 +38,6 @@ public class MenuItem {
 	public void setPrice(Double price) {
 		this.price = price;
 	}
-	
-	
+
+
 }
