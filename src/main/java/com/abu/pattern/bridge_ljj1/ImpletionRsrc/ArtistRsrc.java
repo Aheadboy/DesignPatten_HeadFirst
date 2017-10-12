@@ -10,6 +10,12 @@ import com.abu.pattern.bridge_ljj1.PersonNB;
 public class ArtistRsrc implements IResource {
     PersonNB personNB;
 
+    /**
+     * is dependency injected some way
+     * 这就算是依赖注入吧，依赖PersonNB，但不是我这个类自己去new，而是外部new好了，通过构造函数这个入口进行注入。
+     *
+     * @param personNB
+     */
     public ArtistRsrc(PersonNB personNB) {
         this.personNB = personNB;
     }
