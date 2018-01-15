@@ -1,6 +1,6 @@
-package com.abu.pattern.state_ljj1_gof.GateStateImpl;
+package com.abu.pattern.state_ljj1_gof.SubWayGate.GateStateImpl;
 
-import com.abu.pattern.state_ljj1_gof.Gate;
+import com.abu.pattern.state_ljj1_gof.SubWayGate.Gate;
 
 public class Processing extends AbsGageState {
 

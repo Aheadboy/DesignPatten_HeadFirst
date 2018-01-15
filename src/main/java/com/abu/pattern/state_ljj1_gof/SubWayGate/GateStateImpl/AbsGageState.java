@@ -1,7 +1,7 @@
-package com.abu.pattern.state_ljj1_gof.GateStateImpl;
+package com.abu.pattern.state_ljj1_gof.SubWayGate.GateStateImpl;
 
-import com.abu.pattern.state_ljj1_gof.Gate;
-import com.abu.pattern.state_ljj1_gof.IGateState;
+import com.abu.pattern.state_ljj1_gof.SubWayGate.Gate;
+import com.abu.pattern.state_ljj1_gof.SubWayGate.IGateState;
 
 public abstract class AbsGageState implements IGateState {
     protected Gate gate = null;

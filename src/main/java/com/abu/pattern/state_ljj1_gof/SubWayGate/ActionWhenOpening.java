@@ -1,4 +1,4 @@
-package com.abu.pattern.state_ljj1_gof;
+package com.abu.pattern.state_ljj1_gof.SubWayGate;
 
 
 /**

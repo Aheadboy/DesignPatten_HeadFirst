@@ -1,9 +1,6 @@
-package com.abu.pattern.state_ljj1_gof.GateStateImpl;
+package com.abu.pattern.state_ljj1_gof.SubWayGate.GateStateImpl;
 
-import com.abu.pattern.state_ljj1_gof.Gate;
-import sun.rmi.runtime.Log;
-
-import java.util.logging.Logger;
+import com.abu.pattern.state_ljj1_gof.SubWayGate.Gate;
 
 public class Closed extends AbsGageState {
     public Closed(Gate gate) {
