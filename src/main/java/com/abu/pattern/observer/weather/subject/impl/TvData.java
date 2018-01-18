@@ -3,7 +3,7 @@ package com.abu.pattern.observer.weather.subject.impl;
 import java.util.Observable;
 
 public class TvData extends Observable {
-    private String channelOneProgram;
+    private String channelOneProgram;//节目
     private String channelTwoProgram;
     
     public TvData() {}

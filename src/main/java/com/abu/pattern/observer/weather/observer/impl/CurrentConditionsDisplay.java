@@ -21,7 +21,6 @@ public class CurrentConditionsDisplay implements Observer, DisplayWeather, Displ
 		this.observable.addObserver(this);
 	}
 
-    @Override
 	public void update(Observable obs, Object arg) {
 		if(obs instanceof WeatherData){
 			WeatherData weatherData = (WeatherData)obs;
