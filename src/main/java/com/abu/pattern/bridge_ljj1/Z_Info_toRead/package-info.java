@@ -9,6 +9,13 @@ package com.abu.pattern.bridge_ljj1.Z_Info_toRead;
  * 未来，concretionView包与ImpletionRsrc包下的类都可以各自进行增加，产生新的笛卡儿积组合。
  * 笛卡儿积的组合个数大于concretionView包与ImpletionRsrc包下类的和的个数。减少了代码。
  * <p>
+ * 体现了优先组合，后继承的好处：
+ * 这里抽象类与接口为组合（/聚合）关系；
+ * 如果使用继承，就是抽象类继承了接口，那么势必造成生成笛卡尔积的子类数量。且子类过于肿大。（子类包含的抽象类和接口实现。）
+ * <p>
+ * 个人不严谨的说：对象与接口行为分离，挺合适的用这种方式的。
+ * 各种各样的对象，可以与各种各样的行为进行组合（聚合）nice
+ * <p>
  * <p>
  * 这里所有的耦合存在于高层次的耦合，即抽象层耦合。不与具体类（concretions）发生耦合。利于系统的扩展以及维护。
  * 因为，抽象层定义好了，基本上不会去修改。我们对其子类的新增，或其子类的修改，基本上不会影响到系统，
@@ -56,4 +63,8 @@ package com.abu.pattern.bridge_ljj1.Z_Info_toRead;
  * 采用桥接模式，正是为了避免这一情况的发生，将一方与桥绑定，即实现桥接口
  * ，另一方在抽象类中调用桥接口（指向的实现类），这样桥方可以通过实现桥接口进行单方面扩展
  * ，而另一方可以继承抽象类而单方面扩展，而之间的调用就从桥接口来作为突破口，不会受到双方扩展的任何影响。
+ * <p>
+ * android中的桥接模式：
+ * Listview、BaseAdapter--https://www.cnblogs.com/android-blogs/p/5655286.html
+ * Window 与 WindowManager 之间的桥接模式--http://blog.csdn.net/hp910315/article/details/51933118
  */
