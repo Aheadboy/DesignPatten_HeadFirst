@@ -1,6 +1,9 @@
 package com.abu.pattern.state_ljj1_gof.ATM;
 
 import com.abu.pattern.state_ljj1_gof.ATM.IATMStateImpl.GateClosed;
+import com.abu.pattern.state_ljj1_gof.ATM.IATMStateImpl.GateOpen;
+import com.abu.pattern.state_ljj1_gof.ATM.IATMStateImpl.WaitingAmount;
+import com.abu.pattern.state_ljj1_gof.ATM.IATMStateImpl.WaitingPin;
 
 public class ATM {
     IATMState mATMState = null;
@@ -11,9 +14,9 @@ public class ATM {
 
     public ATM() {
         this.gateClosed = new GateClosed(this);
-        this.gateOpen = new GateClosed(this);
-        this.waitingPin = new GateClosed(this);
-        this.waitingAmount = new GateClosed(this);
+        this.gateOpen = new GateOpen(this);
+        this.waitingPin = new WaitingPin(this);
+        this.waitingAmount = new WaitingAmount(this);
         this.mATMState = this.gateClosed;
     }
 

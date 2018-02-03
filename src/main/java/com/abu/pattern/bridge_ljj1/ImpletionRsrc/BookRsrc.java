@@ -9,7 +9,7 @@ import com.abu.pattern.bridge_ljj1.IResource;
  * BookRsrc，将手头现有的IResource接口与系统原有的BookStoreNB接口进行适配
  */
 public class BookRsrc implements IResource {
-    BookStoreNB bookStoreNB;
+    private final BookStoreNB bookStoreNB;
 
     public BookRsrc(BookStoreNB bookStoreNB) {
         this.bookStoreNB = bookStoreNB;

@@ -25,3 +25,30 @@ public class WeatherStation {
         System.out.println("=END=");
     }
 }
+
+/**
+ *  情形：
+ *  存在被观察者（Obserable）与观察者（Observer（s））。
+ *  观察者会根据被观察者的变化而变化。
+ *
+ *  实现方式：
+ *  Obserable维护一个集合，这个集合存放Observer
+ *  通过注册与取消注册的方式，增删集合中的Observer
+ *  当Obserable有变化时，Obserable负责遍历这个集合中的Observer并向其发送state更新，信号。
+ *  ConcreteObserver将会持有ConcreteObserable的引用，以便读取ConcreteObserable中的最新信息。（往往Obserable向Observer发送信号的那个方法会带有Obserable的实例作为参数传给Observer例如：void update(Observable o, Object arg);）
+ *
+ *  使用：
+ *  Obserable，encapsulate 了通知Observer的行为。
+ *  Observer ，封装了观察到更新后的响应行为。
+ *
+ *  客户端代码所要做的主要是：
+ *  1、增删Observer；
+ *  2、更新Obserable的状态；
+ *
+ *
+ *  Java 内置
+ *      被观察者，维护观察者集合，当状态更新时，要调用  setChanged();notifyObservers();通知是线程安全的。
+ *      观察者接受一个被观察者的引用。
+ *  Android 内置
+ *
+ */
