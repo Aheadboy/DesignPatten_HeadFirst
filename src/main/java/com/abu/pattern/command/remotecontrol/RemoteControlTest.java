@@ -50,3 +50,9 @@ public class RemoteControlTest {
     }
 
 }
+
+/**
+ * 情景：
+ * `命令封装了对接受者的操作、以及撤销；
+ *
+ */

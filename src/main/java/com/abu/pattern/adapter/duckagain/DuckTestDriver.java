@@ -27,7 +27,7 @@ public class DuckTestDriver {
  *
  * 	实现方式：
  * 	1、adapter实现现有的接口（Duck）
- *	2、adapter内组合了adaptee（Turkey），持有adapee（Turkey）的引用。
+ *	2、adapter内组合了adaptee（Turkey），持有adapee（Turkey）的引用。（相当于adapter的功能委托给adaptee的实现）
  *	3、现有接口（Duck）指向adapter实例。
  *
  * 	使用：

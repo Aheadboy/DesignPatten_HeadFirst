@@ -5,7 +5,7 @@ import com.abu.pattern.factory.simple.Pizza;
 public class PizzaTestDriver {
 
 	public static void main(String[] args) {
-		
+
 		PizzaStore nyStore = new NYPizzaStore();
 		PizzaStore chStore = new ChicagoPizzaStore();
 

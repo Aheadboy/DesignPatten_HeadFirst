@@ -11,8 +11,9 @@ public abstract class AbsPizzaStore {
 
     public AbsPizza orderPizza(String type) {
         AbsPizza pizza;
-        pizza = createPizza(type);
+        pizza = createPizza(type);//创建细节
 
+        //组合和表达的细节
         pizza.prepare();
         pizza.bake();
         pizza.cut();
