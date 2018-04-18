@@ -9,7 +9,7 @@ public class PizzaTestDriver {
 		PizzaStore nyStore = new NYPizzaStore();
 		PizzaStore chStore = new ChicagoPizzaStore();
 
-		//这里使用父类引用而不是具体类。体现了多态。或里氏替换原则。
+		//这里使用父类引用而不是具体类。体现了多态（面向对象的特征）。或里氏替换原则（SOLID 原则）。
 		//有解耦的效果。
 		Pizza pizza = nyStore.orderPizza("clam");
 		System.out.println(pizza.getName()+" Ready");
