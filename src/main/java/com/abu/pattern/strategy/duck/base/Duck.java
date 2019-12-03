@@ -3,7 +3,7 @@ package com.abu.pattern.strategy.duck.base;
 import com.abu.pattern.strategy.duck.behavior.FlyBehavior;
 import com.abu.pattern.strategy.duck.behavior.QuackBehavior;
 
-public abstract class Duck {
+public abstract class Duck  {
 	protected FlyBehavior flyBehavior;
 	protected QuackBehavior quackBehavior;
 	
