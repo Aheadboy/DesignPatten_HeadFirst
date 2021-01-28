@@ -30,7 +30,3 @@ public class StarbuzzCoffee {
         System.out.println(beverage3.getDescription() + " $" + beverage3.cost());
     }
 }
-
-/**
- * 装饰器的重点在于，装饰，装饰再装饰。
- */
