@@ -3,6 +3,10 @@ package com.abu.pattern.decorator.cafeshop.decorator.impl;
 import com.abu.pattern.decorator.cafeshop.component.Beverage;
 import com.abu.pattern.decorator.cafeshop.decorator.CondimentDecorator;
 
+/**
+ * 饮料鞭打一下多少钱🤯
+ * commentByLjj
+ */
 public class Whip extends CondimentDecorator {
  
     public Whip(Beverage beverage) {

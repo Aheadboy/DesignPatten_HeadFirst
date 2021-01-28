@@ -50,6 +50,19 @@ public class RemoteControlTest {
     }
 
 }
+/***
+ * Living Room Light is on
+ * Living Room Light is off
+ * Living Room CeilingFan turn to high
+ * Living Room CeilingFan turn off
+ * Living Room Light is on
+ * Living Room CeilingFan turn to high
+ *
+ * Living Room Light is off
+ * Living Room CeilingFan turn off
+ * Living Room Light is on
+ * Living Room CeilingFan turn to high
+ */
 
 /**
  * 情景：

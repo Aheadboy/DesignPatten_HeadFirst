@@ -3,6 +3,10 @@ package com.abu.pattern.decorator.cafeshop.decorator.impl;
 import com.abu.pattern.decorator.cafeshop.component.Beverage;
 import com.abu.pattern.decorator.cafeshop.decorator.CondimentDecorator;
 
+/**
+ * 饮料里面加豆子是多少钱？
+ * commentByLjj
+ */
 public class Soy extends CondimentDecorator {
  
     public Soy(Beverage beverage) {

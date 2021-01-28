@@ -3,6 +3,11 @@ package com.abu.pattern.decorator.cafeshop.decorator.impl;
 import com.abu.pattern.decorator.cafeshop.component.Beverage;
 import com.abu.pattern.decorator.cafeshop.decorator.CondimentDecorator;
 
+/**
+ * 饮料里面加抹茶
+ * 是多少钱
+ * commentByLjj
+ */
 public class Mocha extends CondimentDecorator {
  
     public Mocha(Beverage beverage) {

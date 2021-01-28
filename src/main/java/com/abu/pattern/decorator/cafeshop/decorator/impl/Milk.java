@@ -3,6 +3,10 @@ package com.abu.pattern.decorator.cafeshop.decorator.impl;
 import com.abu.pattern.decorator.cafeshop.component.Beverage;
 import com.abu.pattern.decorator.cafeshop.decorator.CondimentDecorator;
 
+/**
+ * 饮料里面加牛奶是多少钱？
+ * commentByLjj
+ */
 public class Milk extends CondimentDecorator {
  
     public Milk(Beverage beverage) {
